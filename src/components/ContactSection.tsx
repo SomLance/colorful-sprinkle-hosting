@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Send, Mail, Phone, MapPin } from 'lucide-react';
 import Button from './ui-custom/Button';
@@ -43,7 +42,6 @@ const ContactSection = () => {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-5xl mx-auto">
-          {/* Contact Form */}
           <div className="bg-white rounded-xl shadow-lg p-8 transform hover:scale-[1.01] transition-transform duration-300">
             <h3 className="text-2xl font-semibold mb-6">Send us a message</h3>
             
@@ -122,7 +120,6 @@ const ContactSection = () => {
             </form>
           </div>
           
-          {/* Contact Information */}
           <div className="flex flex-col justify-between">
             <div>
               <h3 className="text-2xl font-semibold mb-6">Contact Information</h3>
@@ -138,7 +135,7 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <h4 className="font-medium">Email</h4>
-                    <p className="text-gray-600">contact@prodomain.com</p>
+                    <p className="text-gray-600">support@prodomain.name</p>
                   </div>
                 </div>
                 
@@ -164,7 +161,6 @@ const ContactSection = () => {
               </div>
             </div>
 
-            {/* Hours/Availability */}
             <div className="mt-10 p-6 bg-gradient-to-r from-brand-purple/10 to-brand-cyan/10 rounded-xl">
               <h4 className="font-semibold text-lg mb-2">Business Hours</h4>
               <p className="text-gray-600 mb-2">Monday - Friday: 9AM - 6PM EST</p>
@@ -174,7 +170,6 @@ const ContactSection = () => {
         </div>
       </div>
       
-      {/* Decorative elements */}
       <div className="absolute top-20 right-20 w-20 h-20 rounded-full bg-brand-yellow/10 opacity-50 animate-float" style={{ animationDelay: '0.7s' }} />
       <div className="absolute bottom-10 left-40 w-16 h-16 rounded-full bg-brand-green/10 opacity-50 animate-float" style={{ animationDelay: '1.4s' }} />
     </section>
