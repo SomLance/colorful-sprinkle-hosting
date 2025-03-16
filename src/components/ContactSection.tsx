@@ -1,5 +1,6 @@
+
 import React, { useState } from 'react';
-import { Send, Mail, Phone, MapPin } from 'lucide-react';
+import { Send, Mail, MapPin } from 'lucide-react';
 import Button from './ui-custom/Button';
 import { toast } from 'sonner';
 
@@ -136,16 +137,6 @@ const ContactSection = () => {
                   <div>
                     <h4 className="font-medium">Email</h4>
                     <p className="text-gray-600">support@prodomain.name</p>
-                  </div>
-                </div>
-                
-                <div className="flex items-start space-x-4">
-                  <div className="bg-brand-purple/10 p-3 rounded-lg text-brand-purple">
-                    <Phone size={20} />
-                  </div>
-                  <div>
-                    <h4 className="font-medium">Phone</h4>
-                    <p className="text-gray-600">+91 70036 87879</p>
                   </div>
                 </div>
                 
