@@ -158,7 +158,7 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <h4 className="font-medium">Office</h4>
-                    <p className="text-gray-600">123 Tech Street, Suite 100<br />San Francisco, CA 94107</p>
+                    <p className="text-gray-600">Janakpuri, New Delhi<br />Delhi - 110058</p>
                   </div>
                 </div>
               </div>
